@@ -13,12 +13,15 @@
 		121E13C42859B4720044B585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121E13C32859B4720044B585 /* Assets.xcassets */; };
 		121E13C72859B4720044B585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E13C52859B4720044B585 /* LaunchScreen.storyboard */; };
 		121E13D02859B9CF0044B585 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13CF2859B9CF0044B585 /* Model.swift */; };
-		121E13D92859C9E10044B585 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13D82859C9E00044B585 /* MainTabBarController.swift */; };
 		121E13DC2859FC180044B585 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13DB2859FC180044B585 /* MediaController.swift */; };
 		121E13DE2859FC3D0044B585 /* OffeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13DD2859FC3D0044B585 /* OffeController.swift */; };
 		121E13E02859FC550044B585 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13DF2859FC550044B585 /* SearchController.swift */; };
 		121E13E3285A152A0044B585 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13E2285A15290044B585 /* MainCollectionViewCell.swift */; };
 		121E13E5285A15820044B585 /* MainTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13E4285A15810044B585 /* MainTabCollectionViewCell.swift */; };
+		121E13EA285A24070044B585 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13E9285A24070044B585 /* MainTabBarController.swift */; };
+		121E13ED285A2A740044B585 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13EC285A2A740044B585 /* HeaderCollectionReusableView.swift */; };
+		121E13F0285A2CCE0044B585 /* Extansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13EF285A2CCE0044B585 /* Extansions.swift */; };
+		121E13F3285A2D7D0044B585 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13F2285A2D7D0044B585 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +33,15 @@
 		121E13C62859B4720044B585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121E13C82859B4720044B585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		121E13CF2859B9CF0044B585 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		121E13D82859C9E00044B585 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		121E13DB2859FC180044B585 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
 		121E13DD2859FC3D0044B585 /* OffeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffeController.swift; sourceTree = "<group>"; };
 		121E13DF2859FC550044B585 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		121E13E2285A15290044B585 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		121E13E4285A15810044B585 /* MainTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		121E13E9285A24070044B585 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		121E13EC285A2A740044B585 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		121E13EF285A2CCE0044B585 /* Extansions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extansions.swift; sourceTree = "<group>"; };
+		121E13F2285A2D7D0044B585 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,39 +118,33 @@
 		121E13D42859C1400044B585 /* Sourse */ = {
 			isa = PBXGroup;
 			children = (
+				121E13EE285A2CB50044B585 /* Extansions */,
+				121E13EB285A2A440044B585 /* HeaderCollectionView */,
+				121E13E8285A22ED0044B585 /* MainTabBarController */,
+				121E13E7285A22920044B585 /* Main */,
 				121E13CE2859B9A50044B585 /* Model */,
 				121E13E1285A14F40044B585 /* CollectionCell */,
 				121E13DA2859FBEB0044B585 /* AlbumControllers */,
-				121E13D72859C9B20044B585 /* TabBarController */,
-				121E13D62859C19C0044B585 /* MainViewController */,
-				121E13D52859C15B0044B585 /* TableCollectionViewCell */,
 				121E13E6285A1BCF0044B585 /* App */,
 			);
 			path = Sourse;
 			sourceTree = "<group>";
 		};
-		121E13D52859C15B0044B585 /* TableCollectionViewCell */ = {
+		121E13D52859C15B0044B585 /* MainTableCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				121E13E4285A15810044B585 /* MainTabCollectionViewCell.swift */,
 			);
-			path = TableCollectionViewCell;
+			path = MainTableCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		121E13D62859C19C0044B585 /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
 				121E13BB2859B4600044B585 /* MainViewController.swift */,
+				121E13F1285A2D660044B585 /* Fhoto */,
 			);
 			path = MainViewController;
-			sourceTree = "<group>";
-		};
-		121E13D72859C9B20044B585 /* TabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				121E13D82859C9E00044B585 /* MainTabBarController.swift */,
-			);
-			path = TabBarController;
 			sourceTree = "<group>";
 		};
 		121E13DA2859FBEB0044B585 /* AlbumControllers */ = {
@@ -171,6 +171,47 @@
 				121E13B72859B4600044B585 /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		121E13E7285A22920044B585 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				121E13D52859C15B0044B585 /* MainTableCollectionViewCell */,
+				121E13D62859C19C0044B585 /* MainViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		121E13E8285A22ED0044B585 /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				121E13E9285A24070044B585 /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		121E13EB285A2A440044B585 /* HeaderCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				121E13EC285A2A740044B585 /* HeaderCollectionReusableView.swift */,
+			);
+			path = HeaderCollectionView;
+			sourceTree = "<group>";
+		};
+		121E13EE285A2CB50044B585 /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				121E13EF285A2CCE0044B585 /* Extansions.swift */,
+			);
+			path = Extansions;
+			sourceTree = "<group>";
+		};
+		121E13F1285A2D660044B585 /* Fhoto */ = {
+			isa = PBXGroup;
+			children = (
+				121E13F2285A2D7D0044B585 /* Photo.swift */,
+			);
+			path = Fhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +286,15 @@
 			files = (
 				121E13DC2859FC180044B585 /* MediaController.swift in Sources */,
 				121E13E3285A152A0044B585 /* MainCollectionViewCell.swift in Sources */,
+				121E13EA285A24070044B585 /* MainTabBarController.swift in Sources */,
 				121E13DE2859FC3D0044B585 /* OffeController.swift in Sources */,
+				121E13ED285A2A740044B585 /* HeaderCollectionReusableView.swift in Sources */,
 				121E13BC2859B4600044B585 /* MainViewController.swift in Sources */,
+				121E13F3285A2D7D0044B585 /* Photo.swift in Sources */,
 				121E13E02859FC550044B585 /* SearchController.swift in Sources */,
+				121E13F0285A2CCE0044B585 /* Extansions.swift in Sources */,
 				121E13B82859B4600044B585 /* AppDelegate.swift in Sources */,
 				121E13C22859B4600044B585 /* CollectionView_HW_14_iOS05.xcdatamodeld in Sources */,
-				121E13D92859C9E10044B585 /* MainTabBarController.swift in Sources */,
 				121E13D02859B9CF0044B585 /* Model.swift in Sources */,
 				121E13E5285A15820044B585 /* MainTabCollectionViewCell.swift in Sources */,
 			);

@@ -147,25 +147,5 @@ class MainTableCollectionViewCell: UICollectionViewCell {
         stripeView.backgroundColor = .systemGray4
         
     }
-    
-    // MARK: - Configure cell
-    
-    func configure(with model: TableOption) {
-        label.text = model.title
-        iconImageView.image = model.icon
-        labelLeft.text = String(model.label)
-        arrawImageView.image = UIImage(systemName: "chevron.right")
-        
-        switch model.title {
-        case "Анимированные":
-            stripeView.backgroundColor = .clear
-        case "Недавно удаленные":
-            stripeView.backgroundColor = .clear
-        default:
-            stripeView.backgroundColor = .systemGray4
-        }
-    }
-    
-    
 }
 

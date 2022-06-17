@@ -24,7 +24,7 @@ class MainCollectionViewCell: UICollectionViewCell {
      let profileImageView: UIImageView = {
          let imageView = UIImageView()
          imageView.layer.masksToBounds = true
-         imageView.layer.cornerRadius = 6
+         imageView.layer.cornerRadius = 8
          imageView.backgroundColor = .clear
          return imageView
     }()
@@ -46,8 +46,7 @@ class MainCollectionViewCell: UICollectionViewCell {
     
     private let selectView: UIView = {
         let view = UIView()
-        view.layer.cornerRadius = 6
-        //view.backgroundColor = .darkGray
+        view.layer.cornerRadius = 8
         return view
     }()
     
