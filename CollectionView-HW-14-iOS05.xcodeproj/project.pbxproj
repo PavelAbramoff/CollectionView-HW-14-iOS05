@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				121E13BB2859B4600044B585 /* MainViewController.swift */,
-				121E13F1285A2D660044B585 /* Fhoto */,
+				121E13F1285A2D660044B585 /* Photo */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -206,12 +206,12 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		121E13F1285A2D660044B585 /* Fhoto */ = {
+		121E13F1285A2D660044B585 /* Photo */ = {
 			isa = PBXGroup;
 			children = (
 				121E13F2285A2D7D0044B585 /* Photo.swift */,
 			);
-			path = Fhoto;
+			path = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
