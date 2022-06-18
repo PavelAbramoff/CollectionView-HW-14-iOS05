@@ -67,27 +67,27 @@ class MainCollectionViewCell: UICollectionViewCell {
     
     private func setupViews() {
         contentView.clipsToBounds = true
-
+        
         contentView.addSubview(profileImageView)
         contentView.addSubview(name)
         contentView.addSubview(number)
         contentView.addSubview(selectView)
     }
-
+    
     private func setupLayouts() {
         
         profileImageView.translatesAutoresizingMaskIntoConstraints = false
         name.translatesAutoresizingMaskIntoConstraints = false
         number.translatesAutoresizingMaskIntoConstraints = false
         selectView.translatesAutoresizingMaskIntoConstraints = false
-     
+        
         NSLayoutConstraint.activate([
             
             profileImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             profileImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             profileImageView.topAnchor.constraint(equalTo: contentView.topAnchor),
             profileImageView.heightAnchor.constraint(equalTo: profileImageView.widthAnchor),
-        
+            
             name.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             name.topAnchor.constraint(equalTo: profileImageView.bottomAnchor,constant: 10),
             

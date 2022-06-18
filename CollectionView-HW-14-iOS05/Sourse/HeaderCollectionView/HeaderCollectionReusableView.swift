@@ -17,7 +17,7 @@ class HeaderCollectionReusableView: UICollectionReusableView {
         let label = UILabel()
         label.font = .boldSystemFont(ofSize: 24)
         label.textAlignment = .left
-        
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
 
@@ -25,13 +25,14 @@ class HeaderCollectionReusableView: UICollectionReusableView {
         let label = UILabel()
         label.textColor = .systemBlue
         label.textAlignment = .right
-        
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     private let stripeView: UIView = {
         let view = UIView()
         view.backgroundColor = .systemGray4
+        view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
@@ -58,25 +59,24 @@ class HeaderCollectionReusableView: UICollectionReusableView {
     override func layoutSubviews() {
         super.layoutSubviews()
         backgroundColor = .clear
-
-        rightLabel.translatesAutoresizingMaskIntoConstraints = false
-        leftLabel.translatesAutoresizingMaskIntoConstraints = false
-        stripeView.translatesAutoresizingMaskIntoConstraints = false
-
         
-        
-        NSLayoutConstraint.activate([
-
-        leftLabel.centerYAnchor.constraint(equalTo: safeAreaLayoutGuide.centerYAnchor),
-        leftLabel.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 10),
-
-        rightLabel.centerYAnchor.constraint(equalTo: safeAreaLayoutGuide.centerYAnchor),
-        rightLabel.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -15),
-        
-        stripeView.bottomAnchor.constraint(equalTo: leftLabel.topAnchor, constant: -5),
-        stripeView.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: 1000),
-        stripeView.leadingAnchor.constraint(equalTo: leftLabel.leadingAnchor),
-        stripeView.heightAnchor.constraint(equalToConstant: 1)
+    NSLayoutConstraint.activate([
+            leftLabel.centerYAnchor.constraint(equalTo:
+safeAreaLayoutGuide.centerYAnchor),
+            leftLabel.leadingAnchor.constraint(equalTo:
+safeAreaLayoutGuide.leadingAnchor, constant: 10),
+            
+            rightLabel.centerYAnchor.constraint(equalTo:
+safeAreaLayoutGuide.centerYAnchor),
+            rightLabel.trailingAnchor.constraint(equalTo:
+safeAreaLayoutGuide.trailingAnchor, constant: -15),
+            
+            stripeView.bottomAnchor.constraint(equalTo: leftLabel.topAnchor,
+constant: -5),
+            stripeView.trailingAnchor.constraint(equalTo:
+safeAreaLayoutGuide.trailingAnchor, constant: 1000),
+            stripeView.leadingAnchor.constraint(equalTo: leftLabel.leadingAnchor),
+            stripeView.heightAnchor.constraint(equalToConstant: 1)
         ])
     }
 }
