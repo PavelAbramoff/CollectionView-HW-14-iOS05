@@ -15,13 +15,15 @@
 		121E13D02859B9CF0044B585 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13CF2859B9CF0044B585 /* Model.swift */; };
 		121E13DC2859FC180044B585 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13DB2859FC180044B585 /* MediaController.swift */; };
 		121E13DE2859FC3D0044B585 /* OfferController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13DD2859FC3D0044B585 /* OfferController.swift */; };
-		121E13E02859FC550044B585 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13DF2859FC550044B585 /* SearchController.swift */; };
 		121E13E3285A152A0044B585 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13E2285A15290044B585 /* MainCollectionViewCell.swift */; };
 		121E13E5285A15820044B585 /* MainTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13E4285A15810044B585 /* MainTabCollectionViewCell.swift */; };
 		121E13EA285A24070044B585 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13E9285A24070044B585 /* MainTabBarController.swift */; };
 		121E13ED285A2A740044B585 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13EC285A2A740044B585 /* HeaderCollectionReusableView.swift */; };
 		121E13F0285A2CCE0044B585 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13EF285A2CCE0044B585 /* Extensions.swift */; };
 		121E13F3285A2D7D0044B585 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E13F2285A2D7D0044B585 /* Photo.swift */; };
+		12F6201928B916810034523E /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6201728B916810034523E /* CountryCell.swift */; };
+		12F6201A28B916810034523E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6201828B916810034523E /* Country.swift */; };
+		12F6201C28BE78760034523E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6201B28BE78740034523E /* SearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +37,15 @@
 		121E13CF2859B9CF0044B585 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		121E13DB2859FC180044B585 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
 		121E13DD2859FC3D0044B585 /* OfferController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferController.swift; sourceTree = "<group>"; };
-		121E13DF2859FC550044B585 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		121E13E2285A15290044B585 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		121E13E4285A15810044B585 /* MainTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCollectionViewCell.swift; sourceTree = "<group>"; };
 		121E13E9285A24070044B585 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		121E13EC285A2A740044B585 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		121E13EF285A2CCE0044B585 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		121E13F2285A2D7D0044B585 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		12F6201728B916810034523E /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCell.swift; path = ../../../../../../Downloads/Downloads/CountryCell.swift; sourceTree = "<group>"; };
+		12F6201828B916810034523E /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = ../../../../../../Downloads/Downloads/Country.swift; sourceTree = "<group>"; };
+		12F6201B28BE78740034523E /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		121E13D42859C1400044B585 /* Sourse */ = {
 			isa = PBXGroup;
 			children = (
+				1272977228B9150C00AEDE8C /* Search-2 */,
 				121E13EE285A2CB50044B585 /* Extensions */,
 				121E13EB285A2A440044B585 /* HeaderCollectionView */,
 				121E13E8285A22ED0044B585 /* MainTabBarController */,
@@ -152,7 +157,7 @@
 			children = (
 				121E13DB2859FC180044B585 /* MediaController.swift */,
 				121E13DD2859FC3D0044B585 /* OfferController.swift */,
-				121E13DF2859FC550044B585 /* SearchController.swift */,
+				12F6201B28BE78740034523E /* SearchController.swift */,
 			);
 			path = AlbumControllers;
 			sourceTree = "<group>";
@@ -212,6 +217,15 @@
 				121E13F2285A2D7D0044B585 /* Photo.swift */,
 			);
 			path = Photo;
+			sourceTree = "<group>";
+		};
+		1272977228B9150C00AEDE8C /* Search-2 */ = {
+			isa = PBXGroup;
+			children = (
+				12F6201828B916810034523E /* Country.swift */,
+				12F6201728B916810034523E /* CountryCell.swift */,
+			);
+			path = "Search-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,14 +300,16 @@
 			files = (
 				121E13DC2859FC180044B585 /* MediaController.swift in Sources */,
 				121E13E3285A152A0044B585 /* MainCollectionViewCell.swift in Sources */,
+				12F6201928B916810034523E /* CountryCell.swift in Sources */,
 				121E13EA285A24070044B585 /* MainTabBarController.swift in Sources */,
 				121E13DE2859FC3D0044B585 /* OfferController.swift in Sources */,
 				121E13ED285A2A740044B585 /* HeaderCollectionReusableView.swift in Sources */,
 				121E13BC2859B4600044B585 /* MainViewController.swift in Sources */,
 				121E13F3285A2D7D0044B585 /* Photo.swift in Sources */,
-				121E13E02859FC550044B585 /* SearchController.swift in Sources */,
+				12F6201C28BE78760034523E /* SearchController.swift in Sources */,
 				121E13F0285A2CCE0044B585 /* Extensions.swift in Sources */,
 				121E13B82859B4600044B585 /* AppDelegate.swift in Sources */,
+				12F6201A28B916810034523E /* Country.swift in Sources */,
 				121E13C22859B4600044B585 /* CollectionView_HW_14_iOS05.xcdatamodeld in Sources */,
 				121E13D02859B9CF0044B585 /* Model.swift in Sources */,
 				121E13E5285A15820044B585 /* MainTabCollectionViewCell.swift in Sources */,
